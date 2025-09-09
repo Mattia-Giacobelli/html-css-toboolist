@@ -1,0 +1,74 @@
+/*Root*/
+:root{
+    --main_bcg: #f6f8f9;
+    --editorials_bcg: #45abe9;
+    --q1_goals_bcg: #9c72e4;
+    --recruiting_bcg: #64c0a8;
+    --mobile_bcg: #f29e33;
+    --website_bcg: #d863a0;
+    --sales_bcg: #b0c926;
+    --task_color: #47adf1;
+    --internal_bcg: white;
+    --section_border: #d1d6da;
+}
+
+/*Common*/
+
+body{
+    margin: 0;
+}
+main{
+    background-color: var(--main_bcg);
+    padding-top: 30px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--internal_bcg);
+    padding-left: 30px;
+}
+
+/*Header*/
+
+#logo{
+    vertical-align: middle;
+    padding: 10px 0px 10px 20px
+    
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 5px;
+    font-size: 2.5rem;
+}
+
+/*Buttons*/
+
+.buttons{
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--internal_bcg);
+    padding: 10px 30px 5px;
+    border: 5px solid var(--internal_bcg);
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 3px;
+}
+
+.task{
+    background-color: var(--task_color);
+    border: 1px solid var(--task_color);
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+}
+
+.add_section{
+    background-color: var(--internal_bcg);
+    border:1px solid var(--section_border);
+    border-radius: 5px;
+    color: var(--section_border);
+    padding: 3px;
+    
+}
