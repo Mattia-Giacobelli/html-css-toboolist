@@ -10,6 +10,8 @@
     --task_color: #47adf1;
     --internal_bcg: white;
     --section_border: #d1d6da;
+    --check_color: #9bd9cc;
+    --cross_color: #ee7e79;
 }
 
 /*Common*/
@@ -26,7 +28,6 @@ main{
     width: 80%;
     margin: 0 auto;
     background-color: var(--internal_bcg);
-    padding-left: 30px;
 }
 
 /*Header*/
@@ -46,17 +47,17 @@ h1{
 
 /*Buttons*/
 
-.buttons{
+#buttons{
     width: 80%;
     margin: 0 auto;
     background-color: var(--internal_bcg);
-    padding: 10px 30px 5px;
-    border: 5px solid var(--internal_bcg);
-    border-radius: 5px 5px 0 0;
+    padding: 10px 0px 5px 30px;
+    border: 1px solid var(--internal_bcg);
+    border-radius: 3px 3px 0 0;
     margin-bottom: 3px;
 }
 
-.task{
+.add_task{
     background-color: var(--task_color);
     border: 1px solid var(--task_color);
     border-radius: 5px;
@@ -70,5 +71,101 @@ h1{
     border-radius: 5px;
     color: var(--section_border);
     padding: 3px;
-    
 }
+
+/*List*/
+
+#list{
+    padding: 10px 0 10px 30px;
+    border: 1px solid var(--internal_bcg);
+
+}
+.ul_reset{
+    list-style: none; 
+    padding-inline-start: 0px;
+        
+}
+.main_li{
+    font-size: 1.5rem;
+}
+
+.li_item{
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.check{
+    color: var(--check_color);
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    display: inline-block;
+
+}
+
+.cross{
+    color: var(--cross_color);
+    display: inline-block;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.8rem;
+}
+
+/*Etichette*/
+
+.editorial{
+    color: white;
+    background-color: var(--editorials_bcg);
+    padding: 4px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+}
+
+.q1_goals{
+    color: white;
+    background-color: var(--q1_goals_bcg);
+    padding: 4px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+}
+
+.recruiting{
+    color: white;
+    background-color: var(--recruiting_bcg);
+    padding: 4px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+}
+
+.mobile{
+    color: white;
+    background-color: var(--mobile_bcg);
+    padding: 4px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+}
+
+.website{
+    color: white;
+    background-color: var(--website_bcg);
+    padding: 4px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+}
+
+.sales{
+    color: white;
+    background-color: var(--sales_bcg);
+    padding: 4px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+}
+
